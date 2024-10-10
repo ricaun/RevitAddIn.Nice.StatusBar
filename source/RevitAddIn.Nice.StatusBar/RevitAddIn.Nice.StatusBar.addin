@@ -1,0 +1,11 @@
+﻿<RevitAddIns>
+    <AddIn Type="Application">
+        <Name>RevitAddIn.Nice.StatusBar</Name>
+        <Assembly>RevitAddIn.Nice.StatusBar/RevitAddIn.Nice.StatusBar.dll</Assembly>
+        <AddInId>9FACEAD3-16A2-4180-A9F3-EABD77873C68</AddInId>
+        <FullClassName>RevitAddIn.Nice.StatusBar.Application</FullClassName>
+        <VendorId>Development</VendorId>
+        <VendorDescription></VendorDescription>
+        <VendorEmail></VendorEmail>
+    </AddIn>
+</RevitAddIns>

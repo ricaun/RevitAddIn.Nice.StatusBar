@@ -1,0 +1,111 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A8B022B9-23C2-4780-9C0A-D8F380495753}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Build\Build.Configuration.cs = Build\Build.Configuration.cs
+		Changelog.md = Changelog.md
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Build", "build\Build.csproj", "{BF9CE2F7-7979-475B-B91B-DB32449320E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Installer", "install\Installer.csproj", "{9715B71E-8B9E-48BD-8170-D01D50B5681F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAddIn.Nice.StatusBar", "source\RevitAddIn.Nice.StatusBar\RevitAddIn.Nice.StatusBar.csproj", "{F81816FA-E6EE-4F94-9F2B-36807833AE87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug R20|Any CPU = Debug R20|Any CPU
+		Debug R21|Any CPU = Debug R21|Any CPU
+		Debug R22|Any CPU = Debug R22|Any CPU
+		Debug R23|Any CPU = Debug R23|Any CPU
+		Debug R24|Any CPU = Debug R24|Any CPU
+		Debug R25|Any CPU = Debug R25|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Installer|Any CPU = Installer|Any CPU
+		Release R20|Any CPU = Release R20|Any CPU
+		Release R21|Any CPU = Release R21|Any CPU
+		Release R22|Any CPU = Release R22|Any CPU
+		Release R23|Any CPU = Release R23|Any CPU
+		Release R24|Any CPU = Release R24|Any CPU
+		Release R25|Any CPU = Release R25|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF9CE2F7-7979-475B-B91B-DB32449320E4}.Debug R20|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF9CE2F7-7979-475B-B91B-DB32449320E4}.Debug R21|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF9CE2F7-7979-475B-B91B-DB32449320E4}.Debug R22|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF9CE2F7-7979-475B-B91B-DB32449320E4}.Debug R23|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF9CE2F7-7979-475B-B91B-DB32449320E4}.Debug R24|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF9CE2F7-7979-475B-B91B-DB32449320E4}.Debug R25|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF9CE2F7-7979-475B-B91B-DB32449320E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF9CE2F7-7979-475B-B91B-DB32449320E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF9CE2F7-7979-475B-B91B-DB32449320E4}.Installer|Any CPU.ActiveCfg = Release|Any CPU
+		{BF9CE2F7-7979-475B-B91B-DB32449320E4}.Release R20|Any CPU.ActiveCfg = Release|Any CPU
+		{BF9CE2F7-7979-475B-B91B-DB32449320E4}.Release R21|Any CPU.ActiveCfg = Release|Any CPU
+		{BF9CE2F7-7979-475B-B91B-DB32449320E4}.Release R22|Any CPU.ActiveCfg = Release|Any CPU
+		{BF9CE2F7-7979-475B-B91B-DB32449320E4}.Release R23|Any CPU.ActiveCfg = Release|Any CPU
+		{BF9CE2F7-7979-475B-B91B-DB32449320E4}.Release R24|Any CPU.ActiveCfg = Release|Any CPU
+		{BF9CE2F7-7979-475B-B91B-DB32449320E4}.Release R25|Any CPU.ActiveCfg = Release|Any CPU
+		{BF9CE2F7-7979-475B-B91B-DB32449320E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF9CE2F7-7979-475B-B91B-DB32449320E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9715B71E-8B9E-48BD-8170-D01D50B5681F}.Debug R20|Any CPU.ActiveCfg = Debug|Any CPU
+		{9715B71E-8B9E-48BD-8170-D01D50B5681F}.Debug R21|Any CPU.ActiveCfg = Debug|Any CPU
+		{9715B71E-8B9E-48BD-8170-D01D50B5681F}.Debug R22|Any CPU.ActiveCfg = Debug|Any CPU
+		{9715B71E-8B9E-48BD-8170-D01D50B5681F}.Debug R23|Any CPU.ActiveCfg = Debug|Any CPU
+		{9715B71E-8B9E-48BD-8170-D01D50B5681F}.Debug R24|Any CPU.ActiveCfg = Debug|Any CPU
+		{9715B71E-8B9E-48BD-8170-D01D50B5681F}.Debug R25|Any CPU.ActiveCfg = Debug|Any CPU
+		{9715B71E-8B9E-48BD-8170-D01D50B5681F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9715B71E-8B9E-48BD-8170-D01D50B5681F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9715B71E-8B9E-48BD-8170-D01D50B5681F}.Installer|Any CPU.ActiveCfg = Release|Any CPU
+		{9715B71E-8B9E-48BD-8170-D01D50B5681F}.Installer|Any CPU.Build.0 = Release|Any CPU
+		{9715B71E-8B9E-48BD-8170-D01D50B5681F}.Release R20|Any CPU.ActiveCfg = Release|Any CPU
+		{9715B71E-8B9E-48BD-8170-D01D50B5681F}.Release R21|Any CPU.ActiveCfg = Release|Any CPU
+		{9715B71E-8B9E-48BD-8170-D01D50B5681F}.Release R22|Any CPU.ActiveCfg = Release|Any CPU
+		{9715B71E-8B9E-48BD-8170-D01D50B5681F}.Release R23|Any CPU.ActiveCfg = Release|Any CPU
+		{9715B71E-8B9E-48BD-8170-D01D50B5681F}.Release R24|Any CPU.ActiveCfg = Release|Any CPU
+		{9715B71E-8B9E-48BD-8170-D01D50B5681F}.Release R25|Any CPU.ActiveCfg = Release|Any CPU
+		{9715B71E-8B9E-48BD-8170-D01D50B5681F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9715B71E-8B9E-48BD-8170-D01D50B5681F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Debug R20|Any CPU.ActiveCfg = Debug R20|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Debug R20|Any CPU.Build.0 = Debug R20|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Debug R21|Any CPU.ActiveCfg = Debug R21|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Debug R21|Any CPU.Build.0 = Debug R21|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Debug R22|Any CPU.ActiveCfg = Debug R22|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Debug R22|Any CPU.Build.0 = Debug R22|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Debug R23|Any CPU.ActiveCfg = Debug R23|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Debug R23|Any CPU.Build.0 = Debug R23|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Debug R24|Any CPU.ActiveCfg = Debug R24|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Debug R24|Any CPU.Build.0 = Debug R24|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Debug R25|Any CPU.ActiveCfg = Debug R25|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Debug R25|Any CPU.Build.0 = Debug R25|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Debug|Any CPU.ActiveCfg = Debug R20|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Debug|Any CPU.Build.0 = Debug R20|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Installer|Any CPU.ActiveCfg = Debug R20|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Installer|Any CPU.Build.0 = Debug R20|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Release R20|Any CPU.ActiveCfg = Release R20|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Release R20|Any CPU.Build.0 = Release R20|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Release R21|Any CPU.ActiveCfg = Release R21|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Release R21|Any CPU.Build.0 = Release R21|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Release R22|Any CPU.ActiveCfg = Release R22|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Release R22|Any CPU.Build.0 = Release R22|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Release R23|Any CPU.ActiveCfg = Release R23|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Release R23|Any CPU.Build.0 = Release R23|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Release R24|Any CPU.ActiveCfg = Release R24|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Release R24|Any CPU.Build.0 = Release R24|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Release R25|Any CPU.ActiveCfg = Release R25|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Release R25|Any CPU.Build.0 = Release R25|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Release|Any CPU.ActiveCfg = Release R20|Any CPU
+		{F81816FA-E6EE-4F94-9F2B-36807833AE87}.Release|Any CPU.Build.0 = Release R20|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {205BA70A-CD9E-43E6-AFF2-543D2E0D76B5}
+	EndGlobalSection
+EndGlobal
