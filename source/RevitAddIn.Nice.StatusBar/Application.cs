@@ -16,9 +16,9 @@ namespace RevitAddIn.Nice.StatusBar
 
         private void CreateRibbon()
         {
-            var panel = Application.CreatePanel("Commands");
+            var panel = Application.CreatePanel("ProgressBar");
 
-            panel.AddPushButton<StartupCommand>("Execute")
+            panel.AddPushButton<StartupCommand>("StatusBar")
                 .SetImage("/RevitAddIn.Nice.StatusBar;component/Resources/Icons/RibbonIcon16.png")
                 .SetLargeImage("/RevitAddIn.Nice.StatusBar;component/Resources/Icons/RibbonIcon32.png");
         }

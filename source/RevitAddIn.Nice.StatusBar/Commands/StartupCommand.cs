@@ -13,10 +13,9 @@ namespace RevitAddIn.Nice.StatusBar.Commands
     {
         public override void Execute()
         {
-            int repeat = 1000;
+            int repeat = 2500;
             RevitProgressBarUtils.Run("Revit Repeat", repeat, (i) =>
             {
-                System.Console.WriteLine(i);
                 Thread.Sleep(1);
             });
         }
