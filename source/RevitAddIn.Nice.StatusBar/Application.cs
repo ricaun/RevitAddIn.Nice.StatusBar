@@ -21,6 +21,10 @@ namespace RevitAddIn.Nice.StatusBar
             panel.AddPushButton<StartupCommand>("StatusBar")
                 .SetImage("/RevitAddIn.Nice.StatusBar;component/Resources/Icons/RibbonIcon16.png")
                 .SetLargeImage("/RevitAddIn.Nice.StatusBar;component/Resources/Icons/RibbonIcon32.png");
+
+            panel.AddPushButton<NormalCommand>("Normal")
+                .SetImage("/RevitAddIn.Nice.StatusBar;component/Resources/Icons/RibbonIcon16.png")
+                .SetLargeImage("/RevitAddIn.Nice.StatusBar;component/Resources/Icons/RibbonIcon32.png");
         }
     }
 }

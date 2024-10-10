@@ -1,24 +1,24 @@
 ﻿using Autodesk.Revit.Attributes;
-using Autodesk.Revit.DB;
-using Nice3point.Revit.Toolkit.External;
+using Autodesk.Revit.UI;
 using ricaun.Revit.UI.StatusBar;
 
 namespace RevitAddIn.Nice.StatusBar.Commands
 {
-    /// <summary>
-    ///     External command entry point invoked from the Revit interface
-    /// </summary>
-    [UsedImplicitly]
     [Transaction(TransactionMode.Manual)]
-    public class StartupCommand : ExternalCommand
+    public class NormalCommand : IExternalCommand
     {
-        public override void Execute()
+        public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elementSet)
         {
+            UIApplication uiapp = commandData.Application;
+
             int repeat = 1000;
             RevitProgressBarUtils.Run("Revit Repeat", repeat, (i) =>
             {
                 Thread.Sleep(1);
             });
+
+            return Result.Succeeded;
         }
     }
+
 }

@@ -8,6 +8,6 @@ Use the command ```.nuke/build.cmd Compile``` to build locally.
 
 ### Commands
 
-The command `StatusBar` show a progress bar to test the library.
+The command `StatusBar` show a progress bar to test the library, the `Normal` command do the same but runs in the main default `Context`.
 
 ---
