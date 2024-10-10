@@ -12,7 +12,7 @@ The command `StatusBar` show a progress bar to test the library, the `Normal` co
 
 ### Problem with Revit 2025
 
-If you are using Revit 2025, you need to use the `ExternalCommand` from the toolkit, `IExternalCommand` can't be used.
+If you are using Revit 2025, you need to use the `ExternalCommand` from the toolkit, the Revit interface `IExternalCommand` can't be used.
 
 When you run the command `StatusBar` and `Normal` after, you have the issue.
 
